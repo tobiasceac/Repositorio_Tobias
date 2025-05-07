@@ -13,7 +13,7 @@ public abstract class Animal {
         this.nombre = nombre;
     }
 
-    public abstract void sonido();
+    public abstract String sonido();
 
     public String getNombre() {
         return nombre;
